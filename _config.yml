@@ -1,0 +1,4 @@
+name: blog de anna
+markdown: redcarpet
+pygments: true
+baseurl: /mon_blog
