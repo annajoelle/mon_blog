@@ -10,14 +10,20 @@
     z-index: 1000;
     background-color: white; /* Ensure it has a background */
     padding: 10px 0; /* Adjust padding if necessary */
+    text-align: center;
 }
 .site-nav {
   display: none; /* Hide the nav by default */
 }
+ nav-primary {
+    display: inline-block; /* Makes the nav inline with the title */
+    vertical-align: middle;
+    margin-left: 20px; /* Adjust the spacing between the title and nav as needed */
+}
 
 .nav-primary a.active {
   font-weight: bold;
-  color: #007bff; /* Adjust as needed for active link styling */
+  color: #000000; /* Adjust as needed for active link styling */
 }
 
 .site-nav ul {
@@ -49,7 +55,7 @@ ul {
 /* Style for the primary navigation bar */
 .nav-primary ul {
     display: flex; /* Horizontal layout */
-    justify-content: flex-start; /* Aligns items to the start */
+    justify-content: center; /* Aligns items to the start */
     margin: 0;
     padding: 0;
     list-style: none;
@@ -57,7 +63,8 @@ ul {
 
 /* Style for each navigation item */
 .nav-primary li {
-    margin-right: 20px; /* Space between items */
+    margin-right: 20px; /* Space between items */;
+    vertical-align: middle;
 }
 
 /* Style for the navigation links */
@@ -65,6 +72,7 @@ ul {
     text-decoration: none; /* Removes underline from links */
     color: #000; /* Default color for links */
     font-weight: 500; /* Slightly bold links */
+    vertical-align: middle;
 }
 
 /* Responsive design adjustments */
@@ -77,35 +85,4 @@ ul {
         margin-right: 0;
         margin-bottom: 10px; /* Space between stacked items */
     }
-}
-/* Style for the post list on the All Posts page */
-.post-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.post-list li {
-  margin-bottom: 20px; /* Space between posts */
-  padding-bottom: 20px; /* Space at the bottom of each post item */
-  border-bottom: 1px solid #ddd; /* Optional: adds a border between posts */
-}
-
-.post-list h3 {
-  margin: 0;
-}
-
-.post-list a {
-  text-decoration: none; /* Remove underline from links */
-  color: #007bff; /* Blue color for post titles */
-  font-weight: bold; /* Make titles bold */
-}
-
-.post-list a:hover {
-  text-decoration: underline; /* Underline on hover */
-}
-
-.post-meta {
-  font-size: 0.9em; /* Slightly smaller font size for meta info */
-  color: #666; /* Grey color for meta info */
 }

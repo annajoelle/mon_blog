@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mes posts
+title: mes posts
 permalink: /mesposts/
 ---
 

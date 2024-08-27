@@ -10,10 +10,10 @@
       <nav class="site-nav">
 	<nav class="nav-primary">
   	<ul>
-    	<li><a href="{{ "/" | relative_url }}">Accueil</a></li>
-    	<li><a href="{{ "/about" | relative_url }}">À propos</a></li>
-    	<li><a href="{{ "/mesposts" | relative_url }}">Posts</a></li>
-  	</ul>
+        <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Accueil</a></li>
+        <li><a href="{{ "/about" | relative_url }}" {% if page.url contains "about" %}class="active"{% endif %}>À propos</a></li>
+        <li><a href="{{ "/mesposts" | relative_url }}" {% if page.url contains "mesposts" %}class="active"{% endif %}>Posts</a></li>
+    </ul>
       </nav>
     {%- endif -%}
   </div>
