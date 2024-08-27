@@ -1,4 +1,20 @@
-name: blog de anna
-markdown: redcarpet
+title: anna sur internet
 pygments: true
 baseurl: /mon_blog
+url: "https://annajoelle.github.io/mon_blog"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _site
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
