@@ -1,0 +1,65 @@
+.site-logo {
+    max-height: 205px; /* Adjust the size of your logo */
+    margin-right: 10px; /* Space between logo and title */
+    vertical-align: middle; /* Aligns the logo with the text */
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* Ensure it has a background */
+    padding: 10px 0; /* Adjust padding if necessary */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+/* Style for the primary navigation bar */
+.nav-primary ul {
+    display: flex; /* Horizontal layout */
+    justify-content: flex-start; /* Aligns items to the start */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style for each navigation item */
+.nav-primary li {
+    margin-right: 20px; /* Space between items */
+}
+
+/* Style for the navigation links */
+.nav-primary a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000; /* Default color for links */
+    font-weight: 500; /* Slightly bold links */
+    padding: 10px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for the active link */
+.nav-primary a.active {
+    font-weight: bold; /* Bolder font for active link */
+    color: #007bff; /* Highlight color for active link */
+    background-color: #f0f0f0; /* Background for active link */
+}
+
+/* Navigation bar adjustments on hover */
+.nav-primary a:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .nav-primary ul {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .nav-primary li {
+        margin-right: 0;
+        margin-bottom: 10px; /* Space between stacked items */
+    }
+}
