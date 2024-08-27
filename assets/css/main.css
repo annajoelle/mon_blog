@@ -27,13 +27,13 @@
 }
 
 .site-nav li {
-  display: inline;
   margin-right: 15px;
 }
 
 .site-nav a {
   text-decoration: none;
-  color: #333;
+  color: inherit; /* Inherit color from parent */
+  font-weight: bold; /* Make text bold */
 }
 
 /* Show nav on larger screens */
@@ -65,21 +65,6 @@ ul {
     text-decoration: none; /* Removes underline from links */
     color: #000; /* Default color for links */
     font-weight: 500; /* Slightly bold links */
-    padding: 10px; /* Padding around links */
-    border-radius: 5px; /* Rounded corners */
-}
-
-/* Style for the active link */
-.nav-primary a.active {
-    font-weight: bold; /* Bolder font for active link */
-    color: #007bff; /* Highlight color for active link */
-    background-color: #f0f0f0; /* Background for active link */
-}
-
-/* Navigation bar adjustments on hover */
-.nav-primary a:hover {
-    background-color: #e0e0e0; /* Light gray on hover */
-    color: #0056b3; /* Darker blue on hover */
 }
 
 /* Responsive design adjustments */
@@ -92,4 +77,35 @@ ul {
         margin-right: 0;
         margin-bottom: 10px; /* Space between stacked items */
     }
+}
+/* Style for the post list on the All Posts page */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  margin-bottom: 20px; /* Space between posts */
+  padding-bottom: 20px; /* Space at the bottom of each post item */
+  border-bottom: 1px solid #ddd; /* Optional: adds a border between posts */
+}
+
+.post-list h3 {
+  margin: 0;
+}
+
+.post-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Blue color for post titles */
+  font-weight: bold; /* Make titles bold */
+}
+
+.post-list a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.post-meta {
+  font-size: 0.9em; /* Slightly smaller font size for meta info */
+  color: #666; /* Grey color for meta info */
 }

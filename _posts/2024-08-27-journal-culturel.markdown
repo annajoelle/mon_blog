@@ -3,9 +3,9 @@ layout: post
 title: "journal culturel"
 date: 2024-08-27
 categories: culture
+excerpt : lecture, cinéma, spectacle, musée tous les mois
 ---
 
-Journal culturel
 
 AOUT 2024
 
