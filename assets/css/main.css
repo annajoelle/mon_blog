@@ -11,7 +11,37 @@
     background-color: white; /* Ensure it has a background */
     padding: 10px 0; /* Adjust padding if necessary */
 }
+.site-nav {
+  display: none; /* Hide the nav by default */
+}
 
+.nav-primary a.active {
+  font-weight: bold;
+  color: #007bff; /* Adjust as needed for active link styling */
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Show nav on larger screens */
+@media (min-width: 768px) {
+  .site-nav {
+    display: block;
+  }
+}
 ul {
   list-style: none;
   padding: 0;

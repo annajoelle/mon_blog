@@ -1,9 +1,7 @@
-<nav class="nav-primary" role="navigation" >
+<nav class="nav-primary" role="navigation">
     <ul>
-        {% for p in site.pages %}
-        <li>
-        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
-        </li>
-        {% endfor %}
+        <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Accueil</a></li>
+        <li><a href="{{ "/about" | relative_url }}" {% if page.url == "/about" %}class="active"{% endif %}>À propos</a></li>
+        <li><a href="{{ "/posts" | relative_url }}" {% if page.url == "/posts" %}class="active"{% endif %}>Posts</a></li>
     </ul>
 </nav>
