@@ -5,12 +5,17 @@ date: 2024-08-27
 categories: culture
 excerpt : lecture, cinéma, spectacle, musée tous les mois
 ---
+*OCTOBRE 2024*
+
+Théâtre : Le Cercle des Poètes Disparus au Théâtre Libre
 
 *SEPTEMBRE 2024* 
 
 Livres : Réparer les vivants de Maylis de Kerangal
 
 Musée : Maison Européenne de la Photographie Thomas Mailaender Les Belles Images
+
+Cinéma : Golden Eighties de Chantal Akerman
 
 *AOUT 2024*
 
