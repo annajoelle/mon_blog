@@ -7,6 +7,8 @@ excerpt : lecture, cinéma, spectacle, musée tous les mois
 ---
 *OCTOBRE 2024*
 
+Concert : Orchestre de Paris avec Stanislav Kochanovsky à la Philharmonie (Tcherepnine, Ravel, Tchaïkovski)
+
 Théâtre : Le Cercle des Poètes Disparus au Théâtre Libre
 
 *SEPTEMBRE 2024* 
