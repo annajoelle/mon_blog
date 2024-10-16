@@ -35,6 +35,21 @@ excerpt : photos de san Francisco et de la californie avec appareil photo kodak 
  
 ![film picture of sf]({{ site.baseurl }}/assets/santacruz.png)
 
+### fenêtre, san francisco
+    
+ 
+![film picture of sf]({{ site.baseurl }}/assets/fenetre.png)
+
 ### plantes, lavabo
     
 ![film picture of sf]({{ site.baseurl }}/assets/plante.png)
+
+Au Guatemala :
+
+### san juan de la laguna, guatemala
+ 
+![film picture of sf]({{ site.baseurl }}/assets/atitlan.png)
+
+### depuis le volcan acatenango, guatemala
+ 
+![film picture of sf]({{ site.baseurl }}/assets/acatenango.png)
